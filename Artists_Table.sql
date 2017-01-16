@@ -1,0 +1,7 @@
+CREATE TABLE Artists (
+ID INT NOT NULL,
+ArtistsName VARCHAR(30) NOT NULL,
+SongName VARCHAR(30) NOT NULL,
+Added_Date datetime NOT NULL DEFAULT NOW(), 
+PRIMARY KEY (ID)
+)
